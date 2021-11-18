@@ -102,9 +102,7 @@ nav{
     background-color: #171123;
     min-height: 100vh;
   }
-.icons{
-  margin-top: 12.5rem;
-}
+
 i{
     color: white;
     font-size: 1.5em; 
@@ -123,6 +121,9 @@ i:hover{
     transform: translateY(15px);
     color: gray;
 }
+
+
+
   @media (max-width: 992px) {
       .table-grid{
         grid-template-columns: repeat(3,auto);
@@ -140,4 +141,12 @@ i:hover{
         grid-template-columns: repeat(1,auto);
         grid-template-rows: repeat(auto,2fr);
       }
+    i{
+      font-size: 1em; 
+    }
   } 
+@media (max-width: 364px) {
+  .heading-home2{
+    font-size: x-large;
+  }
+}
