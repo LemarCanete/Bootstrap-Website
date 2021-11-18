@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/6b0ca2d880.js" crossorigin="anonymous"></script>
+    <script src="./website.js" defer></script>
+
+    <title>Website3.0</title>
+    <!-- <style>
+      nav{
+        background-color: #21618C;
+      }
+      .home{
+        background-color: #171123;
+        min-height: 90vh;
+      }
+      .heading-home2{
+        color: #3498DB;
+      }
+      .about{
+        min-height: 90vh;
+      }
+      .works{
+        background-color: #f5f5f5;
+        min-height: 200vh;
+      }
+      .img{
+        box-shadow: 0 16px 24px 2px rgb(0 0 0 / 14%), 0 6px 30px 5px rgb(0 0 0 / 12%), 0 8px 10px -7px rgb(0 0 0 / 20%);
+        border-radius: 25px;
+        transition: all .5s ease-in-out;
+      }
+    </style> -->
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container-fluid">
+
+        <!-- navbar brand -->
+        <!-- <a class="navbar-brand text-light" href="#">Lemaru</a> -->
+
+        <!-- navbar toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navbar collapse -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light fw-bold fs-5 me-3" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fs-5 me-3" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fs-5 me-3" href="#works">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light fs-5 me-5" href="#contacts">Contacts</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light " type="submit">Search</button>
+          </form>
+        </div>
+        <!-- navbar collapse end -->
+
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- home -->
+    <div class="container-fluid home h-10 d-flex flex-column justify-content-center align-items-center">
+      <h1 class="text-white pb-5 display-1 fw-bold">Hey I am Lemar</h1>
+      <h3 class="fst-italic fw-lighter heading-home2 display-5">An aspiring Web Developer</h3>
+    </div>
+    <!-- home end-->
+
+    <!-- About -->
+    <div class="about container-fluid h-100 center text-center pt-3 overflow-hidden" id="about">
+      <h1 class="text-center">About</h1>
+      <div class="row wrap mt-5 gx-5">
+        <div class="col-lg-4 align-self-center col-xs-12 col-md-6">
+          <img src="./images/Whitebg - Copy.png" class="img img-fluid h-25" alt="">
+        </div>
+        <div class="col-lg-8 justify-content-start align-self-center col-md-6">
+          <div class="row text-start col-">
+            <p><strong>Name: </strong>Lemar C. Cañete</p>
+            <p><strong>Address: </strong>Villa Kalubiihan Basak San Nicolas Cebu City, Philippines</p>
+            <p><strong>Date of Birth: </strong>March 16, 2002</p>
+          </div>
+          <div class="row text-start mt-5 d-block-lg">
+            <h4>Who is this guy?</h4>
+          </div>
+          <div class="row text-start">
+            <p>I am Lemar Ceniza Cañete, A first Year in Computer Engineering Student in Cit-University.
+              I am very passionate in websites, dynamic user experiences and
+              Front End Development.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about end -->
+
+    <!-- works -->
+    <div class="works container-fluid h-100" id="works">
+      <h1 class="text-center pt-5">These are some of my Works</h1>
+      <div class="text-center mt-5">
+        <div class="col">
+          <button type="button" class="btn btn_all btn-danger btn-lg px-5">All</button>
+          <button type="button" class="btn btn_js btn-lg px-5">JS</button>
+        </div>
+      </div>
+
+      <!-- works section -->
+      <!-- <div class="row w mt-5">
+        <div class="image col-3">
+          <img src="./Images/Calculator.png" alt="" class="img img-fluid w-100 h-75">
+          <a class="" href="https://lemarcanete.github.io/Calculator-Project/" target="blank">Visit Site</a>
+        </div>
+        <div class="image col-3">
+          <img src="./Images/Log In.png" alt="" class="img img-fluid">
+          <a class="" href="https://lemarcanete.github.io/Log_In-html-css/" target="blank">Visit Site</a>
+        </div>
+        <div class="image col-3">
+          <img src="./Images/StopWatch.png" alt="" class="img img-fluid">
+          <a class="" href="https://lemarcanete.github.io/JS-Stopwatch/" target="blank">Visit Site</a>
+        </div>
+        <div class="image col-3">
+          <img src="./Images/Calendar.png" alt="" class="img img-fluid">
+          <a class="" href="https://lemarcanete.github.io/Calendar-Poject/" target="blank">Visit Site</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="image col-3">
+          <img src="./Images/Canvas-1.png" alt="" class="img img-fluid">
+            <a class="" href="https://lemarcanete.github.io/Canvas-1/" target="blank">Visit Site</a>
+        </div>
+        <div class="image col-3">
+          <img src="./Images/Landing-Page.png" alt="" class="img img-fluid">
+          <a class="" href="https://lemarcanete.github.io/Project-Landing-Page/" target="blank">Visit Site</a>
+        </div>
+        <div class="image col-3">
+          <img src="./Images/Tribute-Page.png" alt="" class="img img-fluid">
+          <a class="" href="https://lemarcanete.github.io/Tribute-Page/" target="blank">Visit Site</a>
+        </div>
+        <div class="image col-3">
+          <img src="./Images/Survey-Form.png" alt="" class="img img-fluid">
+          <a class="" href="https://lemarcanete.github.io/Survey-Form/" target="blank">Visit Site</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="image col-3"><img src="./Images/Technical-Documentation.png" alt="" class="img img-fluid">
+        <a class="" href="https://lemarcanete.github.io/Technical-Documentation-Page/" target="blank">Visit Site</a></div>
+        <div class="col-3"></div>
+        <div class="col-3"></div>
+        <div class="col-3"></div>
+      </div>-->
+   
+    <div class="table-grid container-fluid">
+      <div class="image-div" id="filter">
+        <img src="./Images/Calculator.png" alt="" class="grid-image img-fluid">
+        <a class="visit" href="https://lemarcanete.github.io/Calculator-Project/" target="blank">Visit Site</a>
+      </div>
+
+      <div class="image-div" >
+        <img src="./Images/Log In.png" alt="" class="grid-image img-fluid">
+        <a class="visit" href="https://lemarcanete.github.io/Log_In-html-css/" target="blank">Visit Site</a>
+      </div>
+
+      <div class="image-div" id="filter">
+        <img src="./Images/StopWatch.png" alt="" class="grid-image img-fluid">
+        <a class="visit" href="https://lemarcanete.github.io/JS-Stopwatch/" target="blank">Visit Site</a>
+      </div>
+
+      <div class="image-div" id="filter">
+        <img src="./Images/Calendar.png" alt="" class="grid-image img-fluid">
+        <a class="visit" href="https://lemarcanete.github.io/Calendar-Poject/" target="blank">Visit Site</a>
+      </div>
+
+      <div class="image-div" id="filter">
+        <img src="./Images/Canvas-1.png" alt="" class="grid-image img-fluid">
+        <a class="visit" href="https://lemarcanete.github.io/Canvas-1/" target="blank">Visit Site</a>
+      </div>
+
+      <div class="image-div">
+        <img src="./Images/Landing-Page.png" alt="" class="grid-image img-fluid">
+        <a class="visit" href="https://lemarcanete.github.io/Project-Landing-Page/" target="blank">Visit Site</a>
+      </div>
+
+      <div class="image-div">
+        <img src="./Images/Tribute-Page.png" alt="" class="grid-image img-fluid">
+        <a class="visit" href="https://lemarcanete.github.io/Tribute-Page/" target="blank">Visit Site</a>
+      </div>
+
+      <div class="image-div">
+        <img src="./Images/Survey-Form.png" alt="" class="grid-image img-fluid">
+        <a class="visit" href="https://lemarcanete.github.io/Survey-Form/" target="blank">Visit Site</a>
+      </div>
+
+      <div class="image-div">
+        <img src="./Images/Technical-Documentation.png" alt="" class="grid-image img-fluid">
+        <a class="visit" href="https://lemarcanete.github.io/Technical-Documentation-Page/" target="blank">Visit Site</a>
+      </div>
+
+    </div>
+  </div> 
+    <!-- works end -->
+    
+    <!-- Contacts -->
+      <div class="contacts container-fluid d-flex justify-content-center flex-column" id="contacts">
+        <div class="text-center align-self-center">
+          <h1 class="text-white fw-bold display-4">Let's Work Together...</h1>
+        </div>
+        <div class="row text-center">
+          <em class=" text-white fw-light fs-3">How do you take your coffee?</em>
+        </div>
+
+        <!-- social media icons -->
+      <div class="icons container-fluid pt-5">
+        <div class="row">
+          <div class="col text-center text-white">
+            <i class="fab fa-facebook-square"><a href="https://www.facebook.com/lemar.canete.750" target="_blank" class="text-white"> Facebook</a></i>
+          </div>
+          <div class="col text-center text-white">
+            <i class="fab fa-github"><a  id="profile-link" href="https://github.com/LemarCanete" target="_blank" class="text-white"> GitHub</a></i>
+          </div>
+          <div class="col text-center text-white">
+            <i class="fab fa-twitter"><a href="" class="text-white"> Twitter</a></i>
+          </div>
+          <div class="col text-center text-white">
+            <i class="fas fa-envelope-square"><a href="https://lemar.canete4@gmail.com" target="_blank" class="text-white"> Send a mail</a></i>
+          </div>
+          <div class="col text-center text-white">
+            <i class="fas fa-mobile-alt"><a href="" target="_blank" class="text-white"> Call me <span class="number">09667417299</span></a></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- line -->
+    <div class="border border-3 mt-5"></div>
+
+    <!-- bottom contact -->
+
+    <div class="row text-center mt-5">
+      <div class="col-6">
+        <a href="https://drive.google.com/file/d/1rPP8UcGHldn3-COnSFc-o-V5u6hi_2i1/view" target="_blank" class="text-decoration-none link-info mt-5">Resume</a>
+      </div>
+      <div class="col-6">
+        <small class="text-white">&copy;All rights reserved</small>
+      </div>
+    </div>
+  </div>
+    <!-- contacts end -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+  </body>
+</html>
