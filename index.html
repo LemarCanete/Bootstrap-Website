@@ -38,7 +38,7 @@
   <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
       <div class="container-fluid">
 
         <!-- navbar brand -->
@@ -96,7 +96,7 @@
 
     <!-- About -->
     <div class="about container-fluid h-100 center text-center pt-3 overflow-hidden" id="about">
-      <h1 class="text-center">About</h1>
+      <h1 class="text-center display-4 mt-3">About</h1>
       <div class="row wrap mt-5 gx-5 pb-5">
         <div class="col-lg-4 align-self-center col-xs-12 col-md-6 mb-xs-5">
           <img src="./Images/Whitebg - Copy.png" class="img img-fluid h-25" alt="">
@@ -122,7 +122,7 @@
 
     <!-- works -->
     <div class="works container-fluid h-100" id="works">
-      <h1 class="text-center pt-5">These are some of my Works</h1>
+      <h1 class="text-center pt-5 display-4">These are some of my Works</h1>
       <div class="text-center mt-5">
         <div class="col">
           <button type="button" class="btn btn_all btn-danger btn-lg px-5">All</button>
@@ -226,15 +226,18 @@
     <!-- works end -->
     
     <!-- Contacts -->
-      <div class="contacts container-fluid d-flex justify-content-around flex-column" id="contacts">
-        <div class="row text-center">
+      <div class="contacts container-fluid" id="contacts">
+        <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="pointy">
+          <path d="M0 0 L50 100 L100 0 Z" fill="#f5f5f5" stroke="#f5f5f5"></path>
+        </svg>
+        <div class="contact-heading">
           <h1 class="text-white fw-bold display-4">Let's Work Together...</h1>
           <em class=" text-white fw-light fs-3">How do you take your coffee?</em>
         </div>
 
         <!-- social media icons -->
       <div class="row icons container-fluid">
-        <div class="row">
+        <div class="row d-flex">
           <div class="col text-center text-white">
             <i class="fab fa-facebook-square"><a href="https://www.facebook.com/lemar.canete.750" target="_blank" class="text-white"> Facebook</a></i>
           </div>
@@ -251,24 +254,17 @@
             <i class="fas fa-mobile-alt"><a href="" target="_blank" class="text-white"> Call me <span class="number">09667417299</span></a></i>
           </div>
         </div>
+      </div>
 
-      <div class="row container-fluid">
-
-    <!-- line -->
-      <div class="line border border-3 border-danger container-fluid mt-3"></div>
+      <!-- line -->
+      <div class="line border border-3 border-danger mt-3"></div>    
 
     <!-- bottom contact -->
-        <div class="bottom-contact row text-center mt-5">
-          <div class="col-6">
-            <a href="https://drive.google.com/file/d/1rPP8UcGHldn3-COnSFc-o-V5u6hi_2i1/view" target="_blank" class="text-decoration-none link-info mt-5">Resume</a>
-          </div>
-          <div class="col-6">
-            <small class="text-white">&copy;All rights reserved</small>
-          </div>
+        <div class="bottom-contact mx-auto text-center">
+          <a href="https://drive.google.com/file/d/1rPP8UcGHldn3-COnSFc-o-V5u6hi_2i1/view" target="_blank" class="text-decoration-none link-info mt-5">Resume</a>
+          <small class="text-white">&copy;All rights reserved</small>
         </div>
-      </div>
-    </div>
-
+    
      
   </div>
     <!-- contacts end -->

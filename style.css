@@ -3,7 +3,7 @@ nav{
   }
   .home{
     background-color: #171123;
-    min-height: 90vh;
+    min-height: 94vh;
   }
   .heading-home2{
     color: #3498DB;
@@ -102,6 +102,11 @@ nav{
     background-color: #171123;
     min-height: 100vh;
   }
+.contact-heading{
+  display: block;
+  text-align: center;
+  padding-top: 6%;
+}
 
 i{
     color: white;
@@ -121,9 +126,13 @@ i:hover{
     transform: translateY(15px);
     color: gray;
 }
-
-
-
+.icons{
+  margin-top: 18%;
+  position: relative;
+}
+svg{
+  transition: .75s ease-in-out;
+}
   @media (max-width: 992px) {
       .table-grid{
         grid-template-columns: repeat(3,auto);
@@ -135,7 +144,15 @@ i:hover{
         grid-template-columns: repeat(2,auto);
         grid-template-rows: repeat(auto,2fr);
       }
+      .icons{
+        margin-top: 30%;
+      }
   } 
+  @media (max-width: 576px) {
+    .icons{
+      margin-top: 55%;
+    }
+  }
   @media (max-width: 400px) {
     .table-grid{
         grid-template-columns: repeat(1,auto);
@@ -144,9 +161,18 @@ i:hover{
     i{
       font-size: 1em; 
     }
+    .icons{
+      margin-top: 55%;
+    }
+    .contact-heading{
+      padding-top: 20%;
+    }
   } 
 @media (max-width: 364px) {
   .heading-home2{
     font-size: x-large;
+  }
+  .contact-heading{
+    padding-top: 25%;
   }
 }
